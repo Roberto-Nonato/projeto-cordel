@@ -1,0 +1,90 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One:wght@400;700;900&family=Sriracha&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root{
+    --fonte001: font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte002:"Passion One", sans-serif;
+    --fonte003:"Sriracha", cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte001);
+}
+
+header{
+    
+    background-color: black;
+    color: white;
+    text-align: center;
+    background-image: url(Exercicios\d12-m03\imagens\._background001.jpg.jpg);
+}
+header > h1{
+    margin: auto;
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte002);
+    font-size: 10vw;
+    
+}
+header > p {
+    margin: auto;
+    padding-bottom: 50px;
+}
+p > a{
+    text-decoration: none; 
+    color: white;
+    font-weight: bolder;
+}
+p > a:hover{
+    text-decoration: underline;
+    background-color: rgb(58, 66, 63);
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte003);
+    font-size: 2vw;
+    background-image: url(Exercicios\d12-m03\imagens\._background001.jpg.jpg);
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(29, 26, 26);
+    color: white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem>p{
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
+    padding: 5px;
+   
+}
+section#img01{
+background-image: url(../imagens/._background001.jpg);
+background-position: center;
+}
+section#img02{
+background-image: url(../imagens/._background002.jpg);
+background-position: right center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
